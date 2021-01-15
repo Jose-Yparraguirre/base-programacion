@@ -73,3 +73,72 @@ const resultado = num1 + num2; // El resultado seria 40
 // Opción 2
 const resultado = 1 + 2 // El resultado es 3
 
+// Sumar
+const resultado = num1 + num2; 
+
+// Restar
+const resultado = num1 - num2; 
+
+// Dividir
+const resultado = num1 / num2; 
+
+// Multiplicar
+const resultado = num1 * num2; 
+
+// Resto
+const resultado = num1 % num2; 
+
+// Potencia (Elevado a...)
+const resultado = num1 ** num2; 
+
+// Operaciones más complejas, nos podemos ayudar de los parentesis
+
+const resultado = (5 * 2) + (10 / 2) // El resultado es 15
+
+
+// ============================================ Manipulación de variables ============================================
+const variable1 = 'Hola';
+const variable2 = ' a todos';
+const completa = variable1 + variable2; // El resultado es Hola a todos
+
+// Con plantillas de etiquetadas
+const nombre = 'Jose';
+const texto = 'El nombre de esta persona es ${nombre}';
+
+// Con la funcion concat
+const nombre = 'Jose';
+const apellido = ', se apellida Yparraguirre';
+const edad = ', y tiene una edad de 22 años';
+const textoCompleto = ''.concat(nombre, apellido, edad); // Resultado = 'Jose, se apellida Yparraguirre, y tiene una edad de 22 años'
+
+
+
+// ============================================ Manipulación de String ============================================
+const manipulandoString = 'Este es un texto de ejemplo';
+
+// Convertir las letras en MAYUSCULAS
+const letrasEnMayusculas = manipulandoString.toUpperCase();
+
+// Convertir las letras en minisculas
+const letrasEnMinusculas = manipulandoString.toLowerCase();
+
+// Contador de caracteres
+const cantidadDeCaracteres = 'Este es un texto';
+const resultado = cantidadDeCaracteres.length();
+
+
+// ============================================ Intercambiar tipos ============================================
+// Numero entero(Integer) o float(Decimal) a texto(String)
+const entero = 1;
+const decimal = 1.7;
+
+const resultado = entero + ''; // El resultado es 1 en el formato String
+const resultado = entero.toString(); // El resultado es 1 en el formato String
+const resultado = decimal.toString(); // El resultado es 1.7 en el formato String
+
+// Número entero
+const miNumero = parseInt('45');
+
+// Número con decimales
+const miDecimal = parseFloat('45.3');
+
